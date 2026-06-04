@@ -1,0 +1,8 @@
+Model: pretrained
+Dataset: sampled
+Test Loss: 0.3299
+Accuracy: 0.8593
+Precision: 0.8505
+Recall: 0.8720
+F1 Score: 0.8611
+AUC-ROC: 0.9389

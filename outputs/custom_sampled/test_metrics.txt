@@ -1,0 +1,8 @@
+Model: custom
+Dataset: sampled
+Test Loss: 0.0127
+Accuracy: 0.9973
+Precision: 0.9987
+Recall: 0.9960
+F1 Score: 0.9973
+AUC-ROC: 0.9999

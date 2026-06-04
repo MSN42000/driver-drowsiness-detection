@@ -1,0 +1,18 @@
+# Virtual environment
+drowsy/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Large dataset folders
+data/Drowsy/
+data/Non Drowsy/
+data/processed/
+data/subsampled/
+
+# IDE / editor files
+.vscode/
+
+# Optional: evaluation outputs
+# outputs/

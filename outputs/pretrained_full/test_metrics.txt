@@ -1,0 +1,8 @@
+Model: pretrained
+Dataset: full
+Test Loss: 0.3171
+Accuracy: 0.8689
+Precision: 0.8621
+Recall: 0.8550
+F1 Score: 0.8586
+AUC-ROC: 0.9402
