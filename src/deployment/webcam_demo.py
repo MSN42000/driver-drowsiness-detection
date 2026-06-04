@@ -108,8 +108,8 @@ def main():
                     logit = model(eye_tensor)
                     prob = torch.sigmoid(logit).item()
 
-                # Interpret result: prob < threshold -> drowsy (closed eyes)
-                is_drowsy = prob < args.threshold
+                # Interpret result: prob > threshold -> drowsy (closed eyes)
+                is_drowsy = prob > args.threshold
                 label = "DROWSY" if is_drowsy else "ACTIVE"
                 color = (0, 0, 255) if is_drowsy else (0, 255, 0)  # red for drowsy, green for active
 
